@@ -1,0 +1,28 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="JARVIS"
+run/main_scene="res://control.tscn"
+config/features=PackedStringArray("4.4", "Forward Plus")
+config/icon="res://icon.svg"
+
+[audio]
+
+general/text_to_speech=true
+
+[debug]
+
+canvas_items/debug_redraw_color=Color(0.235913, 0.49459, 0.950337, 0.5)
+
+[rendering]
+
+environment/defaults/default_clear_color=Color(0.0624818, 0.390554, 0.601144, 1)
